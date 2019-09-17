@@ -6,6 +6,6 @@ variable "name" {
 
 variable "region" {
     type = string
-    default = "virginia"
+    default = "us"
     description = "The region that the app should be deployed in. https://devcenter.heroku.com/articles/regions"
 }
